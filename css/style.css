@@ -1,0 +1,55 @@
+body {
+    padding-top: 75px; /* Required padding for .navbar-fixed-top */
+    font-size: 16px;
+}
+
+html, body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2 {
+    color: #3F51B5;
+}
+
+.row {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: #1A237E;
+    color: white;
+    font-size: 14px;
+}
+
+footer > div {
+    padding: 15px;
+}
+
+@media(min-width:768px) {
+    body {
+        padding-top: 100px;
+    }
+}
+
+.navbar-brand {
+    text-align: center;
+    vertical-align: center;
+    color: #FFF;
+}
+
+.navbar-inverse {
+    background-color: #1A237E;
+    border-color: #1A237E;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff; 
+  font-size:16px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #FFF;
+}
